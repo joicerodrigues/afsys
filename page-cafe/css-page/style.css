@@ -1,0 +1,45 @@
+.container-full{
+    width: 100px;
+    height: 100px;
+    background: #6C7A89;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-link{
+    color: rgb(255, 255, 255);
+}
+
+.title{
+    background-color: rgb(7, 2, 2);
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+.color{
+    background-color: rgb(7, 2, 2);
+}
+.form{
+    width: 950px;
+    height: auto;
+    align-items: center !important;
+    text-align: left !important;
+    padding: 15px 15px 15px 15px;
+    margin: auto;
+    border-radius: 12px;
+    background-color: rgb(240, 240, 240);
+}
+.space{
+    padding-top: 10px;
+    padding-left: 100px;
+}
+.caroussel-item{
+    object-fit: cover !important;
+    height: 85vh !important;
+}
+@media screen and (min-width: 800px) {
+    .container {
+      margin: 1em 2em;
+    }
+  } 

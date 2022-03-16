@@ -1,0 +1,13 @@
+.flex{
+     display: flex;
+     padding-top: 10px;
+     margin: 20px;
+}
+.space{
+    padding-left: 5px;
+}
+@media screen and (min-width: 800px) {
+    .container {
+      margin: 1em 2em;
+    }
+  } 
